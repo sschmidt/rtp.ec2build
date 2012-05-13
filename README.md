@@ -1,2 +1,2 @@
-rtp.ec2build
+README
 ============

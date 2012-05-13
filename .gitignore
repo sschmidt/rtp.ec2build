@@ -1,6 +1,8 @@
 *.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+bin
+rtp.pem
+credentials.properties
+target
+.settings
+.classpath
+.project

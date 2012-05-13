@@ -1,0 +1,4 @@
+sudo rm -f /root/.*hist* $HOME/.*hist*
+sudo rm -f /var/log/*.gz
+sudo find /var/log -name mysql -prune -o -type f -print | while read i; do sudo cp /dev/null $i; done
+sudo apt-get install ec2-api-tools
